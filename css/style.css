@@ -1,0 +1,55 @@
+body {
+    padding: 3% 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.submitBtn {
+    padding: 10px;
+    margin-top: 10px;
+    align-self:flex-end;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 35%;
+}
+
+label {
+    margin-top: 15px;
+}
+
+#outputData {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#colorTable {
+    margin: 0 35%;
+}
+
+#color-picker {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#table6x6 {
+    border-collapse: collapse;
+}
+
+#table6x6, th, td {
+    border: 1px solid;
+}
+
+th, td {
+    padding: 15px;
+}
